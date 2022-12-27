@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { Navbar } from "../../elements/Navbar/Navbar";
 import "./Main.css";
+import helloWorld from "../../assets/hello-world.png";
 
 const Main = () => {
     useEffect(() => {
@@ -15,6 +16,13 @@ const Main = () => {
             </header>
             <main id="main-home">
                 <h1>MELON</h1>
+                <h2>
+                    Fast, modern and functional .NET JavaScript runtime.
+                </h2>
+                <img src={helloWorld} />
+                <button>
+                    Try it yourself
+                </button>
             </main>
         </>
     )
