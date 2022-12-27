@@ -2,8 +2,7 @@
     text-align: center;
     font-size: 8vh;
     font-family: 'Space Grotesk', sans-serif;
-
-    background: -webkit-linear-gradient(#dfef67, #4b4e3f);
+    background: -webkit-linear-gradient(135deg, #c9d37a, #d0daaa);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -34,4 +33,18 @@
 #main-home img {
     width: 30%;
     pointer-events: none;
+}
+
+@media(max-width: 600px) {
+    #main-home img {
+        width: 100%;
+        pointer-events: none;
+        margin-block: 5%;
+    }
+}
+
+#main-home-buttons {
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }

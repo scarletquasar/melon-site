@@ -20,9 +20,14 @@ const Main = () => {
                     Fast, modern and functional .NET JavaScript runtime.
                 </h2>
                 <img src={helloWorld} />
-                <button>
-                    Try it yourself
-                </button>
+                <div id="main-home-buttons">
+                    <button>
+                        ► Try it yourself
+                    </button>
+                    <button>
+                        ► Getting Started
+                    </button>
+                </div>
             </main>
         </>
     )
