@@ -22,10 +22,10 @@ const Main = () => {
                 <img src={helloWorld} />
                 <div id="main-home-buttons">
                     <button>
-                        ► Try it yourself
+                        🔥 Try it yourself
                     </button>
                     <button>
-                        ► Getting Started
+                        📚 Getting Started
                     </button>
                 </div>
             </main>
