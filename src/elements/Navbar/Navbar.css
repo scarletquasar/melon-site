@@ -1,0 +1,12 @@
+#navbar {
+    font-family: 'Mukta', sans-serif;
+    display: flex;
+
+    width: 90%;
+    height: 100%;
+
+    align-items: center;
+    justify-content: space-around;
+
+    color: #fff;
+}

@@ -1,0 +1,9 @@
+#main-home h1 {
+    text-align: center;
+    font-size: 8vh;
+    font-family: 'Space Grotesk', sans-serif;
+
+    background: -webkit-linear-gradient(#E5EFB8, #4b4e3f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
