@@ -21,7 +21,7 @@ const Main = () => {
                 </h2>
                 <img src={helloWorld} />
                 <div id="main-home-buttons">
-                    <button>
+                    <button onClick={() => {window.open("https://github.com/MelonRuntime/Melon/wiki", "_blank")}}>
                         🔥 Try it yourself
                     </button>
                     <button>
