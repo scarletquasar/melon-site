@@ -1,0 +1,10 @@
+#error-main h1 {
+    font-size: 6vh;
+    font-family: 'Mukta', sans-serif;
+}
+
+#error-main h2 {
+    font-size: 4vh;
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+}

@@ -1,13 +1,3 @@
-a {
-    transition: 0.3s;
-    color: rgb(220, 219, 219);
-    text-decoration: none;
-}
-
-a:hover {
-    filter:grayscale(1);
-}
-
 * {
     margin: 0;
     color: #fff;

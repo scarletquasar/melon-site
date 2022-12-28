@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { Navbar } from "../../elements/Navbar/Navbar";
+import { useNavigate } from "react-router-dom";
 import "./Main.css";
 import helloWorld from "../../assets/hello-world.png";
 
@@ -12,7 +13,6 @@ const Main = () => {
         <>
             <header>
                 <Navbar pageNumber={1} />
-                
             </header>
             <main id="main-home">
                 <h1>MELON</h1>

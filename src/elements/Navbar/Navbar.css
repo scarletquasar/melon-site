@@ -10,3 +10,15 @@
 
     color: #fff;
 }
+
+#navbar button {
+    transition: 0.3s;
+    cursor: pointer;
+    font-family: 'Mukta', sans-serif;
+    background: none;
+    border: none;
+}
+
+#navbar button:hover {
+    filter:grayscale(1);
+}
