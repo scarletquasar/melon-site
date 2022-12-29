@@ -5,7 +5,7 @@ const Error = () => {
     return (
         <>
             <header>
-                <Navbar pageNumber={9} />
+                <Navbar />
             </header>
             <main id="error-main">
                 <h1>Page Not Found</h1>

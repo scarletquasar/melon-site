@@ -4,6 +4,17 @@ import { useNavigate } from "react-router-dom";
 import "./Main.css";
 import helloWorld from "../../assets/hello-world.png";
 
+const HELLO_WORLD_ALT = `
+const { http } = Melon;
+const app = http.app();
+
+app.get('/', () => "Hello Melon");
+
+//App running on *localhost*
+`;
+
+const WIKI_HOME_URL = "https://github.com/MelonRuntime/Melon/wiki/Home---Welcome-to-the-Melon-Runtime-official-wiki";
+
 const Main = () => {
     useEffect(() => {
         document.title = 'Melon Runtime';
@@ -12,16 +23,16 @@ const Main = () => {
     return (
         <>
             <header>
-                <Navbar pageNumber={1} />
+                <Navbar />
             </header>
             <main id="main-home">
                 <h1>MELON</h1>
                 <h2>
                     Fast, modern and functional .NET JavaScript runtime.
                 </h2>
-                <img src={helloWorld} />
+                <img src={helloWorld} alt={HELLO_WORLD_ALT} />
                 <div id="main-home-buttons">
-                    <button onClick={() => {window.open("https://github.com/MelonRuntime/Melon/wiki", "_blank")}}>
+                    <button onClick={() => {window.open(WIKI_HOME_URL, "_blank")}}>
                         🔥 Try it yourself
                     </button>
                     <button>

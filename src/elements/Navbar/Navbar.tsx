@@ -1,7 +1,7 @@
 import "./Navbar.css";
 import { useNavigate } from "react-router-dom";
 
-const Navbar = (props: { pageNumber: number }) => {
+const Navbar = () => {
     const navigate = useNavigate();
     return (
         <div id="navbar">
